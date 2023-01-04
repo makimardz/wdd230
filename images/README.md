@@ -1,0 +1,1 @@
+All image files are saved here.
