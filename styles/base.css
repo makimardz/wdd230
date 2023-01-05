@@ -29,12 +29,10 @@ body {
 }
 
 main {
-    display: grid;
     margin: 20px;
 }
 
 .learning {
-    display: flex;
     background-color: #fff;
     padding: 1.5rem;
     margin-bottom: 24px;
@@ -88,4 +86,12 @@ img {
     padding: 5px;
     width: 50%;
     margin-left: 20px;
+}
+
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+    margin: 20px;
 }
