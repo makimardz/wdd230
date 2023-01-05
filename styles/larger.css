@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+    /* beginning of media query */
+    nav {
+        flex-direction: row-reverse;
+        justify-content: right;
+        gap: 3rem;
+    }
+    /* end of media query */
+}
