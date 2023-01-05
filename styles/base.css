@@ -18,10 +18,12 @@ nav a {
 
 header {
     background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    display: grid;
-    grid-template-columns: 300px auto;
-    padding: 10px 0 10px 0;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1rem;
 }
 
 body {
@@ -29,15 +31,14 @@ body {
 }
 
 main {
-    margin: 20px;
+    margin: 50px;
 }
 
 .learning {
-    background-color: #fff;
-    padding: 1.5rem;
-    margin-bottom: 24px;
-    border-radius: .25rem;
-    border: #24091b solid 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -81,10 +82,10 @@ h3 {
 }
 
 img {
+    display: float;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 50%;
     margin-left: 20px;
 }
 
@@ -93,5 +94,5 @@ img {
 }
 .column {
     flex: 50%;
-    margin: 20px;
+    margin: 10px 20px 20px 10px;
 }
