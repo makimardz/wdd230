@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+:root {
+  
+  --primary-color: #6D6875;
+  --secondary-color: #F69090;
+  --accent1-color: #FFCDB2;
+  --accent2-color: #FEDEDE;
+  --accent3-color: #B5838D;
+
+ 
+  --heading-font: Poppins, sans-serif;
+  --paragraph-font: Poppins, sans-serif;
+
+  --headline-color-on-white: #6D6875;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: black;
+  --nav-link-color: #FFCDB2;
+  --nav-background-color: #6D6875;
+  --nav-hover-link-color: #FFffff;
+  --nav-hover-background-color: #F69090;
+}
+
+html {
+    background-color: var(--accent2-color);
+}
+
+body {
+    max-width: 940px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    color: var(--paragraph-color-on-color);
+    background-color: var(--primary-color);
+}
+header > h1, header > h2 {
+    color: var(--headline-color-on-color);
+  }
+  
+p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color);
+    padding: 1em;
+}
