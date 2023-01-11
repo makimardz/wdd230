@@ -1,9 +1,13 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
     /* beginning of media query */
     nav {
-        flex-direction: row-reverse;
-        justify-content: right;
-        gap: 3rem;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    nav a {
+        text-decoration: none;
     }
     header {
         flex-direction: column;
