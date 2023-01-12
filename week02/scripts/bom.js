@@ -6,7 +6,7 @@ const button = document.querySelector('button');
     const myChap = input.value;
     input.value = '';
 
-    const li = document.createElement('li');
+    const li = document.createElement('#list');
     const liText = document.createElement('span');
     const liBtn = document.createElement('button');
 
