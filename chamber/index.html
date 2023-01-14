@@ -5,17 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chamber of Commerce Website Project</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 </head>
 <body>
     <header>
         <h1>Lapulapu City Chamber of Commerce</h1>
     </header>
     <nav>
-        <ul>
-            <li>Home</li>
-            <li>Discover</li>
-            <li>Directory</li>
-            <li>Join</li>
+        <ul class="menu">
+            <li title="home">
+                <a href="#" id="menu-button">≡</a>
+            </li>
+            <li title="search">
+                <a href="#" class="menu-item">Home</a>
+            </li>
+            <li title="pencil">
+                <a href="#" class="menu-item">Discover</a>
+            </li>
+            <li title="about">
+                <a href="#" class="active menu-item">Directory</a>
+            </li>
+            <li title="archive">
+                <a href="#" class="menu-item">Join</a>
+            </li>
         </ul>
     </nav>
     <main>
@@ -24,5 +39,7 @@
     <footer>
 
     </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
 </body>
 </html>
