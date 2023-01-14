@@ -86,10 +86,10 @@ h3 {
 }
 
 img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    width: 100%;
+    height: auto;
     padding: 5px;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 .row {
