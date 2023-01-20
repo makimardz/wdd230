@@ -33,11 +33,16 @@
     </header>
     <main>
         <h2>WDD 230: Course Activity Portal</h2>
+        <div class="hero">
         <picture>
-            <source media="(min-wid: 860px)" srcset="images/cebu_philippines_temple_sunset.webp">
+            <source media="(max-wid: 860px)" srcset="images/cebu_philippines_temple_sunset.webp">
             <source media="(max-wid: 700px)" srcset="images/Cebu-City-Philippines-Temple2.webp">
             <img class="imagesrc" src="images/cebu_philippines_temple_sunset.webp" alt="Cebu Philippines Temple" loading="lazy">
           </picture>
+          <div class="herolabel">
+			<p>Cebu Philippines Temple</p>
+		</div>
+        </div>
         <div class="row">
             <div class="column">
             <section class="learning">
@@ -79,9 +84,12 @@
             <section class="learning">
                 <h3>Information</h3>
                 <p>76 °F - Sunshine </p>
-                <p>Visit Count:  </p>
+                <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
             </section>
         </div>
+        </div>
+        <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62815.2298424305!2d123.95047436767788!3d10.26546223111117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a999fed973c41b%3A0x1ae9af03b1a02e2c!2sLapu-Lapu%20City%2C%20Cebu!5e0!3m2!1sen!2sph!4v1674198427594!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </main>
     <footer>
@@ -89,5 +97,6 @@
         <p id="lastUpdated"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/pagevisit.js"></script>
 </body>
 </html>
