@@ -1,31 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap");
 
 nav {
-    background-color: darkslateblue;
-    display: flex;
-    flex-direction: row;
-    align-items: right;
-    justify-content: right;
-    gap: 3rem;
-    padding: 3rem;
-    list-style-type: none;
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+nav li {
+    list-style: none;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
 }
 
 nav a {
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    color: #fff;
-    text-decoration: none;
+   display:block;
+   padding: .75rem 2rem;
+   border: 1px solid purple;
 }
-
+nav.open{
+    display: block;
+}
 header {
     background-color: blanchedalmond;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-    padding: 1rem;
+    display: grid;
+    grid-template-columns: auto 44px;
+}
+
+header button {
+    height: 44px;
+    width: 44px;
 }
 
 body {
@@ -112,7 +118,59 @@ li a.open {
 	content: "x ";
 }
 
+.imagesrc {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+
 .hero {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+	margin: 10px auto;
+	position: relative;
+	border: 1px solid rgba(0,0,0,.1);
+	height: 500px;
+}
+
+.hero img {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+}
+
+.hero a {
+	text-decoration: none;
+}
+
+.herolabel {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+	
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
