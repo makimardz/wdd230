@@ -20,7 +20,7 @@ nav a {
    padding: .75rem 2rem;
    border: 1px solid purple;
 }
-nav.open{
+nav .open{
     display: block;
 }
 header {
