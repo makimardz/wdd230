@@ -1,6 +1,4 @@
-const menubutton = document.querySelector("header button");
-const mynav = document.querySelector("nav");
+const hambutton = document.querySelector('.ham');
+const mainnav = document.querySelector('.navigation')
 
-menubutton.addEventListener("click", () => {
-	mynav.classList.toggle("open")
-})
+hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);

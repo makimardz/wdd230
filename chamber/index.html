@@ -21,20 +21,22 @@
 <body>
     <header>
         <h1>Lapulapu City Chamber of Commerce</h1>
-        <button>=</button>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Discover</a>
-        <a href="#">Directory</a>
-        <a href="#">Join</a>
-    </nav>
+        <nav class="home">
+            <ul class="navigation">
+                <li><a class="ham" href="#"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
 </header>
     <main>
         <div class="hero">
             <picture>
-                <source media="(max-width: 600px)" srcset="images/lapulapu-small.webp">
-                <source media="(max-width: 1000px)" srcset="images/lapulapu.webp">
-                <img class="imagesrc" src="images/lapulapu.webp" alt="Cebu Philippines Temple" loading="lazy">
+                <source media="(max-width: 600px)" srcset="images/lapulapu.webp">
+                <source media="(max-width: 1000px)" srcset="images/lapulapu-small.webp">
+                <img class="imagesrc" src="images/lapulapu.webp" alt="Lapulapu" loading="lazy">
             </picture>
             <div class="herolabel">
 			    <p>Lapu-Lapu City</p>
@@ -46,6 +48,6 @@
         <p id="lastUpdated"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
-    <script src="scripts/menu.js"></script>
+    
 </body>
 </html>
