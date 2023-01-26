@@ -1,0 +1,57 @@
+:root {
+  
+    --primary-color: #6D6875;
+    --secondary-color: #F69090;
+    --accent1-color: #FFCDB2;
+    --accent2-color: #FEDEDE;
+    --accent3-color: #B5838D;
+     
+    --heading-font: Poppins, sans-serif;
+    --paragraph-font: Poppins, sans-serif;  
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--secondary-color);
+	box-shadow: 0 0 30px var(--accent3-color);
+	border-collapse: collapse;
+}
+
+caption {
+    padding: 20px;
+    
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin: 10px auto;
+}
+  
+tr:first-child th {
+	background-color: var(--primary-color);
+    font-size: 2em;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--accent2-color);
+}
+
+th {
+	background-color: var(--secondary-color);
+    color: var(--accent2-color);
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--accent2-color);
+}
+
+#highlight {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+}
+#title {
+	color: var(--accent2-color);
+}

@@ -20,11 +20,20 @@
 </head>
 <body>
     <nav>
-        <span class="material-symbols-outlined">
-            menu
-            </span>
-        <a href="https://www.byui.edu">BYU-Idaho</a>
-        <a href="https://www.linkedin.com/in/makicanedo/">LinkedIn</a>
+        <ul class="navigation" id="mainnav">
+            <li><a href="https://byui.edu">BYU-Idaho</a></li>
+            <li><a href="https://linkedin.com/">LinkedIn</a></li>
+            <li id="menubutton">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="1.2rem" height="1.2rem" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:top;">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <line x1="4" y1="6" x2="20" y2="6" />
+                        <line x1="4" y1="12" x2="20" y2="12" />
+                        <line x1="4" y1="18" x2="20" y2="18" />
+                    </svg>
+                </a>
+            </li>
+        </ul>
     </nav>
     <header>
         <img src="images/maki.jpg" alt="me">
@@ -57,8 +66,8 @@
                                  <a href="https://codepen.io/makimardz/pen/rNrpNge?editors=1100" target="_blank">Responsive Images - srcset</a>
                     </li>
                     <li>Week 04: Learning Activities <br/>
-                        <a href="">CSS Pseudo-Classes</a> <br/>
-                        <a href="">CSS Combinators</a> <br/>
+                        <a href="https://codepen.io/makimardz/pen/wvxjExx?editors=1100">CSS Pseudo-Classes</a> <br/>
+                        <a href="week04/images/combinator_ex.jpg">CSS Combinators</a> <br/>
                         <a href="">HTML Tables for Data Presentation</a> <br/>
                         <a href="">HTML Forms</a>
                     </li>
@@ -83,8 +92,18 @@
         </div>
         </div>
         <div class="map-responsive">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62815.2298424305!2d123.95047436767788!3d10.26546223111117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a999fed973c41b%3A0x1ae9af03b1a02e2c!2sLapu-Lapu%20City%2C%20Cebu!5e0!3m2!1sen!2sph!4v1674198427594!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7554.169552726747!2d123.9582645042885!3d10.312222874916463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a999c441370e7f%3A0xbeeda07bc176c8f2!2sPajo%2C%20Lapu-Lapu%20City%2C%20Cebu!5e0!3m2!1sen!2sph!4v1674738676383!5m2!1sen!2sph" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <form action="" method="post" id="form">
+        <label>Name:  <input required="" type="text" id="name" name="name" placeholder="Your name"></label>
+        <label>Email:  <input required="" type="email" id="email" name="email" placeholder="Your email"></label>
+        <label>Rating:  <input type="range" id="range" name="rating" min="1" max="10" value="10"></label>
+        <label>Username:  <input required="" type="password" name="username" id="user1" placeholder="username" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,12}"></label>
+        <label>Confirm Username:  <input required="" type="password" name="username" id="user2" placeholder="confirm username"></label>
+        <input type="submit" value="Submit">
+    </form>
+
     </main>
     <footer>
         <p id="copyRight"></p> 
@@ -92,5 +111,6 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/pagevisit.js"></script>
+    <script src="scripts/ham.js"></script>
 </body>
 </html>
