@@ -8,6 +8,7 @@
     <meta name="author" content="Maki Canedo Aranas">
     <title>Discover | Chamber of Commerce Website Project</title>
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/lazyload.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -44,15 +45,19 @@
             </div>
         </div>
             <picture>
-                <img class="imagesrc" src="images/lapulapu-beach.webp" alt="Lapulapu" loading="lazy">
+                <img src="images/lapulapu-beach.webp" alt="lapulapu beach" loading="lazy">
             </picture>
             <picture>
-                <img class="imagesrc" src="images/Lapu-Lapu-City-Hall.webp" alt="Lapulapu" loading="lazy">
+                <img src="images/Lapu-Lapu-City-Hall.webp" alt="lapulapu city hall" loading="lazy">
             </picture>
 
             <h2>Welcome to Lapulapu City Chamber of Commerce</h2>
             <p>Lapulapu Chamber of Commerce aim to promote and support the interests of local businesses, and to encourage economic growth and development in the community<p>
-        
+            <section class="learning">
+                    <h3>Local Storage</h3>
+                    
+                    <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+                </section>
     </main>
     <footer>
         <p id="copyRight"></p> 
@@ -60,5 +65,6 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/page.js"></script>
 </body>
 </html>
