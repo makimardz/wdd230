@@ -33,7 +33,16 @@
     <main>
         <div class="row">
             <div class="column">
-                <img src="images/lapulapu.jpg" alt="lapulapu">
+                <div class="hero">
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="images/lapulapu-small.webp">
+                        <source media="(max-width: 1000px)" srcset="images/lapulapu.webp">
+                        <img class="imagesrc" src="images/lapulapu.webp" alt="Cebu Philippines Temple" loading="lazy">
+                    </picture>
+                    <div class="herolabel">
+                        <p>Lapu-Lapu City</p>
+                    </div>
+                </div>
             </div>
             <div class="column">
             <h2>Welcome to Lapulapu City Chamber of Commerce</h2>
