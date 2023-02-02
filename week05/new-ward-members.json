@@ -1,0 +1,34 @@
+{
+    "Family Name": "Smith",
+    "Date Moved In": "2023-02-02",
+    "Number of People": 5,
+    "Visited by Bishopric": true,
+    "Family Members": [
+      {
+        "Name": "John Smith",
+        "Gender": "Male",
+        "Birthdate": "2000-01-01"
+      },
+      {
+        "Name": "Jane Smith",
+        "Gender": "Female",
+        "Birthdate": "2002-03-03"
+      },
+      {
+        "Name": "Tom Smith",
+        "Gender": "Male",
+        "Birthdate": "2004-05-05"
+      },
+      {
+        "Name": "Amy Smith",
+        "Gender": "Female",
+        "Birthdate": "2006-07-07"
+      },
+      {
+        "Name": "Bob Smith",
+        "Gender": "Male",
+        "Birthdate": "2008-09-09"
+      }
+    ]
+}
+  
