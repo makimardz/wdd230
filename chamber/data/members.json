@@ -1,0 +1,47 @@
+{
+    "menbers": [
+        {
+            "Company Name": "Company 1",
+            "Address": "LT #3 Bldg. Pajo, Lapu-lapu City",
+            "Phone number": 123456789,
+            "websiteURL": "www.website-a.com",
+            "imageurl": "images/image-holder.webp"
+        },
+        {
+            "Company Name": "Company 3",
+            "Address": "LT #4 Bldg. Pajo, Lapu-lapu City",
+            "Phone number": 123456789,
+            "websiteURL": "www.website-b.com",
+            "imageurl": "images/image-holder.webp"
+        },
+        {
+            "Company Name": "Company 4",
+             "Address": "LT #2 Bldg. Pajo, Lapu-lapu City",
+            "Phone number": 123456789,
+            "websiteURL": "www.website-c.com",
+            "imageurl": "images/image-holder.webp"
+        },
+        {
+            "Company Name": "Company 5",
+            "Address": "LT #1 Bldg. Pajo, Lapu-lapu City",
+            "Phone number": 123456789,
+            "websiteURL": "www.website-d.com",
+            "imageurl": "images/image-holder.webp"
+        },
+        {
+            "Company Name": "Company 6",
+             "Address": "LT #7 Bldg. Pajo, Lapu-lapu City",
+            "Phone number": 123456789,
+            "websiteURL": "www.website-e.com",
+            "imageurl": "images/image-holder.webp"
+        },
+
+        {
+            "Company Name": "Company 7",
+            "Address": "LT #8 Bldg. Pajo, Lapu-lapu City",
+                "Phone number": 123456789,
+                "websiteURL": "www.website-f.com",
+            "imageurl": "images/image-holder.webp"
+        }
+    ]
+}
