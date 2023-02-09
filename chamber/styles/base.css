@@ -255,6 +255,7 @@ fieldset{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Poppins, sans serif;
 }
 .label{
     padding-left:20px;
@@ -356,6 +357,3 @@ fieldset{
     font-family: Poppins, sans serif;
 }
 
-.buttonframe {
-    font-family: Poppins, sans serif;
-}
