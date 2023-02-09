@@ -194,9 +194,9 @@ input{
 }
 
 input[type=submit]{
-    border: 2px solid #00bfff;
+    border: 2px solid #f69090;
     display: inline-block;
-    background-color: #00bfff;
+    background-color: #f69090;
     color: #fff;
     transition: background-color ease-in-out 0.2s;
 }
