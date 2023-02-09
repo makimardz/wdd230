@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Lapulapu City Chamber of Commerce">
     <meta name="author" content="Maki Canedo Aranas">
-    <title>Chamber of Commerce Website Project</title>
+    <title>Chamber of Commerce | Join Us</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/normalize.css">
@@ -33,7 +33,68 @@
         </nav>
 </header>
     <main>
+        <h2 style="text-align: center;">Join the Chamber</h2>
         
+              <form action="thankyou.html" method="post">
+                <div class="blocks">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label>First Name* <input type="text" name="fname" required></label>
+                    <label>Last Name* <input type="text" name="lname" required></label>
+                    <label>Title <input type="text" name="title" pattern="[A-Za-z0-9\s-]{7,}"></label>
+                    <label>Email* <input type="email" name="email" required placeholder="someone@example.com"></label>
+                    <label>Phone* <input type="tel" name="phone" placeholder="1234567890" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <label>Business Name <input type="text" name="businessName"></label>
+                    <label for="business">Business Description</label>
+                    <textarea name="business" placeholder="Business Description"></textarea>
+                    <input type="hidden" name="datetime" id="datetime" value="">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <label>
+                        <input type="radio" name="audience" value="np">
+                        <span>NP Membership ( FREE )</span>
+                        <p class="label">For Non-Profit organizations</p>
+                    </label>
+                    <label>
+                        <input type="radio" name="audience" value="br" checked>
+                        <span>Bronze Membership ($50/yr)</span>
+                        <p class="label">For Small Businesses</p>
+                    </label>
+                    <label>
+                        <input type="radio" name="audience" value="si">
+                        <span>Silver Membership ($100/yr)</span>
+                        <p class="label">For Medium Businesses</p>
+                    </label>
+                    <label>
+                        <input type="radio" name="audience" value="go">
+                        <span>Gold Membership ($200/yr)</span>
+                        <p class="label">For Large Businesses</p>
+                    </label>
+                </fieldset>
+
+                <fieldset class="hiddenForm">
+                    <legend>Membership Pricing</legend>
+                    <p class="title">NP (Non-Profit) Membership</p>
+                    <p>NP Membership includes all the benefits of a Bronze Membership, but is free for Non-Profit organizations.</p>
+                    <p class="title">Bronze Membership</p>
+                    <p>Bronze Membership includes an invitation to all Chamber events, a listing on the Chamber website, and a listing in the Chamber newsletter.</p>
+                    <p class="title">Silver Membership</p>
+                    <p>Silver Membership includes all the benefits of a Bronze Membership, plus a 10% discount on all Chamber events.</p>
+                    <p class="title">Gold Membership</p>
+                    <p>Gold Membership includes all the benefits of a Silver Membership, plus a 20% discount on all Chamber events.</p>
+                </fieldset>
+            </div>
+            <div class="buttonframe">
+                <input type="submit" value="Join">
+            </div>
+            
+          
     </main>
     <footer>
         <p id="copyRight"></p> 

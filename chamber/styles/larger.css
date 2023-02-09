@@ -32,5 +32,22 @@
         height: 100%;
         object-fit: cover;
     }
+
+    .blocks{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-rows: auto;
+        padding: 10px;
+    }
+    .hiddenForm{
+        display: block;
+    }
     /* end of media query */
+}
+
+@media screen and (min-width: 1039px) and (max-width: 1371px) {
+    /* make neat rows on medium sizes */
+    .hiddenForm{
+        display: none;
+    }
 }

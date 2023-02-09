@@ -181,4 +181,181 @@ img {
     position:absolute;
 }
 
+input{
+    border: 1px solid #bebfc1;
+    padding: 10px 30px;
+    margin: 10px;
+    display: block;
+    font-size: 1em;
+    border-radius: 5px;
+    display: block;
+    color: black;
+    width: calc(85% - 20px);
+}
 
+input[type=submit]{
+    border: 2px solid #00bfff;
+    display: inline-block;
+    background-color: #00bfff;
+    color: #fff;
+    transition: background-color ease-in-out 0.2s;
+}
+
+input[type=submit]:hover{
+    background-color: #33ccff;
+    color: #fff;
+}
+
+input[type=radio]{
+    border: 1px solid #bebfc1;
+    display: inline-block;
+    margin: 10px 0;
+    width: 20px;
+}
+
+label{
+    display: block;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0;
+    color: black;
+}
+
+textarea{
+    border: 1px solid #bebfc1;
+    padding: 10px 30px;
+    margin: 10px;
+    height: 296px;
+    width: calc(85% - 20px);
+    display: block;
+    font-size: 1em;
+    border-radius: 5px;
+    display: block;
+    color: black;
+    resize: none;
+}
+
+fieldset{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+.hiddenForm{
+    display: none;
+}
+
+.hiddenForm .title{
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+.buttonframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.label{
+    padding-left:20px;
+    margin-top: 3px;
+    font-style: italic;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+.thanks-container{
+    height: 50vh;
+    padding:20px;
+    padding-top: 10vh;
+    text-align: center;
+}
+.members {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+}
+.members .card{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.members .card picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+}
+.members .card picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.members .card h3{
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+.members .card p{
+    font-size: 0.8em;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+.membership{
+    color:white;
+    padding:5px;
+    border-radius:3px;
+}
+.np{
+    background-color: #0a7c7c;
+}
+.bronze{
+    background-color: #966d44;
+}
+.silver{
+    background-color: #706f6f;
+}
+.gold{
+    background-color: #8d7700;
+}
+.members.list .card{
+    border:none;
+    border-top: 1px solid #ccc;
+    border-radius: 0;
+    margin: 0;
+}
+.members.list .card picture{
+    display: none;
+}
+.members.list .card h3{
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+}
+.members.list .card p:not(.membership){
+    display:none;
+}
+.members.list hr{
+    border:none;
+}
+
+.blocks {
+    font-family: Poppins, sans serif;
+}
+
+.buttonframe {
+    font-family: Poppins, sans serif;
+}
