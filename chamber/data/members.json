@@ -1,47 +1,77 @@
 {
     "menbers": [
         {
-            "Company Name": "Company 1",
-            "Address": "LT #3 Bldg. Pajo, Lapu-lapu City",
-            "Phone number": 123456789,
-            "websiteURL": "www.website-a.com",
-            "imageurl": "images/image-holder.webp"
+            "name": "Company 1",
+            "address": "LT #3 Bldg. Pajo, Lapu-lapu City",
+            "phone": 123456789,
+            "website": "www.website-a.com",
+            "membershipLevel": "Gold",
+            "icon": "images/image-holder.webp",
+            "otherInfo": {
+                "yearsinBusiness": 5,
+                "category": "travel"
+              }
         },
         {
-            "Company Name": "Company 3",
-            "Address": "LT #4 Bldg. Pajo, Lapu-lapu City",
-            "Phone number": 123456789,
-            "websiteURL": "www.website-b.com",
-            "imageurl": "images/image-holder.webp"
+            "name": "Company 3",
+            "address": "LT #4 Bldg. Pajo, Lapu-lapu City",
+            "phone": 123456789,
+            "website": "www.website-b.com",
+            "membershipLevel": "Platinum",
+            "icon": "images/image-holder.webp",
+            "otherInfo": {
+                "yearsinBusiness": 4,
+                "category": "retail"
+              }
         },
         {
-            "Company Name": "Company 4",
-             "Address": "LT #2 Bldg. Pajo, Lapu-lapu City",
-            "Phone number": 123456789,
-            "websiteURL": "www.website-c.com",
-            "imageurl": "images/image-holder.webp"
+            "name": "Company 4",
+             "address": "LT #2 Bldg. Pajo, Lapu-lapu City",
+            "phone": 123456789,
+            "website": "www.website-c.com",
+            "membershipLevel": "Silver",
+            "icon": "images/image-holder.webp",
+            "otherInfo": {
+                "yearsinBusiness": 7,
+                "category": "retail"
+              }
         },
         {
-            "Company Name": "Company 5",
-            "Address": "LT #1 Bldg. Pajo, Lapu-lapu City",
-            "Phone number": 123456789,
-            "websiteURL": "www.website-d.com",
-            "imageurl": "images/image-holder.webp"
+            "name": "Company 5",
+            "address": "LT #1 Bldg. Pajo, Lapu-lapu City",
+            "phone": 123456789,
+            "website": "www.website-d.com",
+            "membershipLevel": "Platinum",
+            "icon": "images/image-holder.webp",
+            "otherInfo": {
+                "yearsinBusiness": 5,
+                "category": "wholesale"
+              }
         },
         {
-            "Company Name": "Company 6",
-             "Address": "LT #7 Bldg. Pajo, Lapu-lapu City",
-            "Phone number": 123456789,
-            "websiteURL": "www.website-e.com",
-            "imageurl": "images/image-holder.webp"
+            "name": "Company 6",
+            "address": "LT #7 Bldg. Pajo, Lapu-lapu City",
+            "phone": 123456789,
+            "website": "www.website-e.com",
+            "membershipLevel": "Gold",
+            "icon": "images/image-holder.webp",
+            "otherInfo": {
+                "yearsinBusiness": 5,
+                "category": "retail"
+              }
         },
 
         {
-            "Company Name": "Company 7",
-            "Address": "LT #8 Bldg. Pajo, Lapu-lapu City",
-                "Phone number": 123456789,
-                "websiteURL": "www.website-f.com",
-            "imageurl": "images/image-holder.webp"
+            "name": "Company 7",
+            "address": "LT #8 Bldg. Pajo, Lapu-lapu City",
+            "phone": 123456789,
+            "website": "www.website-f.com",
+            "membershipLevel": "Platinum",
+            "icon": "images/image-holder.webp",
+            "otherInfo": {
+                "yearsinBusiness": 3,
+                "category": "travel"
+              }
         }
     ]
 }
