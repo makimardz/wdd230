@@ -96,30 +96,17 @@
         </div>
 
         <h3>Contact Us Form</h3>
-        <form action="" method="">
-            <fieldset>
-                <legend>Please fill up the form</legend>
-                <label class="top"> Full Name* <input type="text" name="name" required></label>
-                <label class="top"> Email* <input type="email" name="email" placeholder="someone@email.com" required></label>
-                
-                <label for="r">Page Rating [ <span id="rating"></span> ]:</label>
-	                <div class="rangecontainer">
-		                <input type="range" min="1" max="10" id="r" name="r" list="ten">
-		                <div class="ratinglabels">
-			                <span class="ratevalue">1</span>
-			                <span class="ratevalue">2</span>
-			                <span class="ratevalue">3</span>
-			                <span class="ratevalue">4</span>
-			                <span class="ratevalue">5</span>
-                            <span class="ratevalue">6</span>
-			                <span class="ratevalue">7</span>
-			                <span class="ratevalue">8</span>
-			                <span class="ratevalue">9</span>
-			                <span class="ratevalue">10</span>
-	                    </div>
-	                </div>
-            </fieldset>
+        <form action="" method="post" id="form">
+            <label>Name:  <input required="" type="text" id="name" name="name" placeholder="Your name"></label>
+            <label>Email:  <input required="" type="email" id="email" name="email" placeholder="Your email"></label>
+            <label>Rating:  <input type="range" id="range" name="rating" min="1" max="10" value="10"></label>
+            <label>Username:  <input required="" type="password" name="username" id="user1" placeholder="username" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,12}"></label>
+            <label>Confirm Username:  <input required="" type="password" name="username" id="user2" placeholder="confirm username"></label>
+            <input type="submit" value="Submit">
         </form>
+        <br>
+        <br>
+        <section id="formtable"></section>
 
     </main>
     <footer>
