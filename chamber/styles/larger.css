@@ -45,7 +45,7 @@
     /* end of media query */
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .card-small,
     .card-large {
       flex: 1;
@@ -57,5 +57,23 @@
     /* make neat rows on medium sizes */
     .hiddenForm{
         display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-3 {
+      width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .card-3 {
+      width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 576px) {
+    .card-3 {
+      width: 100%;
     }
 }
