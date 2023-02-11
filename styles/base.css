@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap");
 
+* {
+    font-family: Poppins, sans serif;;
+}
 nav{
     position:sticky;
     top:0;
@@ -183,7 +186,6 @@ label{
 }
 
 form{
-    font-family: Poppins, sans serif;
     padding: 20px;
     margin: 0 auto;
     border: 1px solid black;
@@ -195,7 +197,6 @@ form{
 }
 #formtable{
     display:none;
-    font-family: Poppins, sans serif;;
 }
 
 table {
@@ -219,3 +220,4 @@ table th {
 table tr:nth-child(even) {
     background: rgba(128,128,128,0.2)
 }
+
