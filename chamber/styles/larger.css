@@ -45,6 +45,14 @@
     /* end of media query */
 }
 
+@media only screen and (max-width: 600px) {
+    .card-small,
+    .card-large {
+      flex: 1;
+      max-width: 100%;
+    }
+}
+
 @media screen and (min-width: 1039px) and (max-width: 1371px) {
     /* make neat rows on medium sizes */
     .hiddenForm{
