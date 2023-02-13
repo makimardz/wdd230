@@ -11,7 +11,7 @@ document.querySelector('#copyRight').textContent = `\u00A9 ${year} | Maki Canedo
 
 async function getWeather() {
     const apiKey = 'cc62e66d8130004846514727c1635ade';
-    const location = await getLocation();
+    //const location = await getLocation();
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=10.266182&lon=123.997292&appid=${apiKey}`;
     const response = await fetch(url);
     const data = await response.json();
