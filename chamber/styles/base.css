@@ -374,3 +374,8 @@ fieldset{
 .footer-left p, .footer-right p {
     margin: 0;
 }
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+}
