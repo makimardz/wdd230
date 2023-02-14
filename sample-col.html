@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.column-75 {
+  flex-basis: 75%;
+  max-width: 75%;
+}
+
+.column-25 {
+  flex-basis: 25%;
+  max-width: 25%;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .column-75 {
+    max-width: 66.66%;
+    margin-right: 20px;
+  }
+
+  .column-25 {
+    max-width: 33.33%;
+  }
+
+  .card {
+    padding: 30px;
+  }
+
+  .row .column-75:last-child {
+    margin-right: 0;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+}
+
+</style>
+</head>
+<body>
+    <div class="row">
+        <div class="column-75">
+          <div class="card">
+            <h2>Column 1</h2>
+            <p>This column has a width of 75%.</p>
+          </div>
+        </div>
+        <div class="column-25">
+          <div class="card">
+            <h2>Column 2</h2>
+            <p>This column has a width of 25%.</p>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+</body>
+</html>

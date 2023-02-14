@@ -77,3 +77,10 @@
       width: 100%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .col-75, .col-25 {
+      flex-basis: 100%;
+      margin-right: 0;
+    }
+  }

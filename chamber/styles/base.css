@@ -119,10 +119,21 @@ img {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 .column {
     flex: 50%;
-    margin: 10px 20px 20px 10px;
+    margin: 10px;
+}
+
+.col-75 {
+    flex-basis: 75%;
+    margin: 10px;
+}
+
+.col-25 {
+    flex-basis: 25%;
+    margin: 10px;
 }
 
 .imagesrc {
@@ -318,7 +329,7 @@ fieldset{
 }
 .card-small {
     flex: 1;
-    max-width: 25%;
+    max-width: 33.33%;
     padding: 1em;
     background-color: whitesmoke;
     box-sizing: border-box;
@@ -328,7 +339,7 @@ fieldset{
 }
 .card-large {
     flex: 2;
-    max-width: 75%;
+    max-width: 66.66%;
     padding: 1em;
     background-color: lightgray;
     background-color: whitesmoke;
