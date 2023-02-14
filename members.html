@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.card {
+  width: calc(33.33% - 1em);
+  padding: 1em;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card p {
+  margin: 0;
+}
+
+</style>
+</head>
+<body>
+    <div class="card-container" id="members">
+    </div>
+    
+    <script>
+      fetch('data.json')
+        .then(response => response.json())
+        .then(data => {
+          const members = data.members;
+          const cardContainer = document.getElementById('members');
+          members.forEach((member, index) => {
+            if (index % 3 === 0) {
+              const row = document.createElement('div');
+              row.className = 'row';
+              cardContainer.appendChild(row);
+            }
+            const row = cardContainer.lastElementChild;
+            const card = document.createElement('div');
+            card.className = 'card';
+            const name = document.createElement('h3');
+            name.innerText = member.name;
+            card.appendChild(name);
+            const address = document.createElement('p');
+            address.innerText = member.address;
+            card.appendChild(address);
+            const phone = document.createElement('p');
+            phone.innerText = member.phone;
+            card.appendChild(phone);
+            const membership = document.createElement('p');
+            membership.innerText = member.membership;
+            card.appendChild(membership);
+            row.appendChild(card);
+          });
+        })
+        .catch(error => console.error(error));
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+    "members": [
+      {
+        "name": "John Doe",
+        "address": "123 Main St",
+        "phone": "555-555-5555",
+        "membership": "Gold"
+      },
+      {
+        "name": "Jane Smith",
+        "address": "456 Elm St",
+        "phone": "555-555-1234",
+        "membership": "Silver"
+      },
+      {
+        "name": "Bob Johnson",
+        "address": "789 Oak St",
+        "phone": "555-555-6789",
+        "membership": "Bronze"
+      },
+      {
+        "name": "Alice Green",
+        "address": "567 Maple St",
+        "phone": "555-555-4321",
+        "membership": "Gold"
+      },
+      {
+        "name": "Charlie Brown",
+        "address": "321 Cherry St",
+        "phone": "555-555-9876",
+        "membership": "Silver"
+      }
+    ]
+  }
+  
